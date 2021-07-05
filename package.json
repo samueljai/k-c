@@ -2,6 +2,9 @@
   "name": "pair-programming-test",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": ">=14.15.4"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -20,7 +23,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "test-datastructures": "react-scripts test src/datastructures --reporters=default jest-stare"
   },
   "eslintConfig": {
     "extends": [
@@ -39,5 +43,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "jest-stare": "^2.2.2"
   }
 }
