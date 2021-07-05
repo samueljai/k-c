@@ -1,0 +1,209 @@
+{
+  "numFailedTestSuites": 1,
+  "numFailedTests": 5,
+  "numPassedTestSuites": 0,
+  "numPassedTests": 0,
+  "numPendingTestSuites": 0,
+  "numPendingTests": 0,
+  "numRuntimeErrorTestSuites": 0,
+  "numTodoTests": 0,
+  "numTotalTestSuites": 1,
+  "numTotalTests": 5,
+  "openHandles": [],
+  "snapshot": {
+    "added": 0,
+    "didUpdate": false,
+    "failure": false,
+    "filesAdded": 0,
+    "filesRemoved": 0,
+    "filesRemovedList": [],
+    "filesUnmatched": 0,
+    "filesUpdated": 0,
+    "matched": 0,
+    "total": 0,
+    "unchecked": 0,
+    "uncheckedKeysByFile": [],
+    "unmatched": 0,
+    "updated": 0
+  },
+  "startTime": 1625491728796,
+  "success": false,
+  "testResults": [
+    {
+      "leaks": false,
+      "numFailingTests": 5,
+      "numPassingTests": 0,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1625491730983,
+        "runtime": 1567,
+        "slow": false,
+        "start": 1625491729416
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "/Users/jamesmiller/Code/pair-programming-test/src/datastructures/datastructures.test.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Datastructures in Javascript"
+          ],
+          "duration": 3,
+          "failureDetails": [
+            {
+              "matcherResult": {
+                "expected": [
+                  0,
+                  2,
+                  4,
+                  6,
+                  10,
+                  20
+                ],
+                "name": "toEqual",
+                "pass": false
+              }
+            }
+          ],
+          "failureMessages": [
+            "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\nExpected: \u001b[32m[0, 2, 4, 6, 10, 20]\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m\n    at Object.<anonymous> (/Users/jamesmiller/Code/pair-programming-test/src/datastructures/datastructures.test.js:14:20)\n    at Promise.then.completed (/Users/jamesmiller/Code/pair-programming-test/node_modules/jest-circus/build/utils.js:276:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/jamesmiller/Code/pair-programming-test/node_modules/jest-circus/build/utils.js:216:10)\n    at _callCircusTest (/Users/jamesmiller/Code/pair-programming-test/node_modules/jest-circus/build/run.js:212:40)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n    at _runTest (/Users/jamesmiller/Code/pair-programming-test/node_modules/jest-circus/build/run.js:149:3)\n    at _runTestsForDescribeBlock (/Users/jamesmiller/Code/pair-programming-test/node_modules/jest-circus/build/run.js:63:9)\n    at _runTestsForDescribeBlock (/Users/jamesmiller/Code/pair-programming-test/node_modules/jest-circus/build/run.js:57:9)\n    at run (/Users/jamesmiller/Code/pair-programming-test/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/Users/jamesmiller/Code/pair-programming-test/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)\n    at jestAdapter (/Users/jamesmiller/Code/pair-programming-test/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)\n    at runTestInternal (/Users/jamesmiller/Code/pair-programming-test/node_modules/jest-runner/build/runTest.js:380:16)\n    at runTest (/Users/jamesmiller/Code/pair-programming-test/node_modules/jest-runner/build/runTest.js:472:34)\n    at Object.worker (/Users/jamesmiller/Code/pair-programming-test/node_modules/jest-runner/build/testWorker.js:133:12)"
+          ],
+          "fullName": "Datastructures in Javascript should add two arrays together in the order provided",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "failed",
+          "title": "should add two arrays together in the order provided"
+        },
+        {
+          "ancestorTitles": [
+            "Datastructures in Javascript"
+          ],
+          "duration": 0,
+          "failureDetails": [
+            {
+              "matcherResult": {
+                "expected": [
+                  1,
+                  7,
+                  5
+                ],
+                "name": "toEqual",
+                "pass": false
+              }
+            }
+          ],
+          "failureMessages": [
+            "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\nExpected: \u001b[32m[1, 7, 5]\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m\n    at Object.<anonymous> (/Users/jamesmiller/Code/pair-programming-test/src/datastructures/datastructures.test.js:20:20)\n    at Promise.then.completed (/Users/jamesmiller/Code/pair-programming-test/node_modules/jest-circus/build/utils.js:276:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/jamesmiller/Code/pair-programming-test/node_modules/jest-circus/build/utils.js:216:10)\n    at _callCircusTest (/Users/jamesmiller/Code/pair-programming-test/node_modules/jest-circus/build/run.js:212:40)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n    at _runTest (/Users/jamesmiller/Code/pair-programming-test/node_modules/jest-circus/build/run.js:149:3)\n    at _runTestsForDescribeBlock (/Users/jamesmiller/Code/pair-programming-test/node_modules/jest-circus/build/run.js:63:9)\n    at _runTestsForDescribeBlock (/Users/jamesmiller/Code/pair-programming-test/node_modules/jest-circus/build/run.js:57:9)\n    at run (/Users/jamesmiller/Code/pair-programming-test/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/Users/jamesmiller/Code/pair-programming-test/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)\n    at jestAdapter (/Users/jamesmiller/Code/pair-programming-test/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)\n    at runTestInternal (/Users/jamesmiller/Code/pair-programming-test/node_modules/jest-runner/build/runTest.js:380:16)\n    at runTest (/Users/jamesmiller/Code/pair-programming-test/node_modules/jest-runner/build/runTest.js:472:34)\n    at Object.worker (/Users/jamesmiller/Code/pair-programming-test/node_modules/jest-runner/build/testWorker.js:133:12)"
+          ],
+          "fullName": "Datastructures in Javascript should remove even numbers from the array",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "failed",
+          "title": "should remove even numbers from the array"
+        },
+        {
+          "ancestorTitles": [
+            "Datastructures in Javascript"
+          ],
+          "duration": 0,
+          "failureDetails": [
+            {
+              "matcherResult": {
+                "expected": true,
+                "name": "toEqual",
+                "pass": false
+              }
+            }
+          ],
+          "failureMessages": [
+            "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m\n    at Object.<anonymous> (/Users/jamesmiller/Code/pair-programming-test/src/datastructures/datastructures.test.js:30:33)\n    at Promise.then.completed (/Users/jamesmiller/Code/pair-programming-test/node_modules/jest-circus/build/utils.js:276:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/jamesmiller/Code/pair-programming-test/node_modules/jest-circus/build/utils.js:216:10)\n    at _callCircusTest (/Users/jamesmiller/Code/pair-programming-test/node_modules/jest-circus/build/run.js:212:40)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n    at _runTest (/Users/jamesmiller/Code/pair-programming-test/node_modules/jest-circus/build/run.js:149:3)\n    at _runTestsForDescribeBlock (/Users/jamesmiller/Code/pair-programming-test/node_modules/jest-circus/build/run.js:63:9)\n    at _runTestsForDescribeBlock (/Users/jamesmiller/Code/pair-programming-test/node_modules/jest-circus/build/run.js:57:9)\n    at run (/Users/jamesmiller/Code/pair-programming-test/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/Users/jamesmiller/Code/pair-programming-test/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)\n    at jestAdapter (/Users/jamesmiller/Code/pair-programming-test/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)\n    at runTestInternal (/Users/jamesmiller/Code/pair-programming-test/node_modules/jest-runner/build/runTest.js:380:16)\n    at runTest (/Users/jamesmiller/Code/pair-programming-test/node_modules/jest-runner/build/runTest.js:472:34)\n    at Object.worker (/Users/jamesmiller/Code/pair-programming-test/node_modules/jest-runner/build/testWorker.js:133:12)"
+          ],
+          "fullName": "Datastructures in Javascript should return the correct boolean if the number can be located in the array",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "failed",
+          "title": "should return the correct boolean if the number can be located in the array"
+        },
+        {
+          "ancestorTitles": [
+            "Datastructures in Javascript"
+          ],
+          "duration": 0,
+          "failureDetails": [
+            {
+              "matcherResult": {
+                "expected": 10,
+                "name": "toEqual",
+                "pass": false
+              }
+            }
+          ],
+          "failureMessages": [
+            "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\nExpected: \u001b[32m10\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m\n    at Object.<anonymous> (/Users/jamesmiller/Code/pair-programming-test/src/datastructures/datastructures.test.js:37:20)\n    at Promise.then.completed (/Users/jamesmiller/Code/pair-programming-test/node_modules/jest-circus/build/utils.js:276:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/jamesmiller/Code/pair-programming-test/node_modules/jest-circus/build/utils.js:216:10)\n    at _callCircusTest (/Users/jamesmiller/Code/pair-programming-test/node_modules/jest-circus/build/run.js:212:40)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n    at _runTest (/Users/jamesmiller/Code/pair-programming-test/node_modules/jest-circus/build/run.js:149:3)\n    at _runTestsForDescribeBlock (/Users/jamesmiller/Code/pair-programming-test/node_modules/jest-circus/build/run.js:63:9)\n    at _runTestsForDescribeBlock (/Users/jamesmiller/Code/pair-programming-test/node_modules/jest-circus/build/run.js:57:9)\n    at run (/Users/jamesmiller/Code/pair-programming-test/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/Users/jamesmiller/Code/pair-programming-test/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)\n    at jestAdapter (/Users/jamesmiller/Code/pair-programming-test/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)\n    at runTestInternal (/Users/jamesmiller/Code/pair-programming-test/node_modules/jest-runner/build/runTest.js:380:16)\n    at runTest (/Users/jamesmiller/Code/pair-programming-test/node_modules/jest-runner/build/runTest.js:472:34)\n    at Object.worker (/Users/jamesmiller/Code/pair-programming-test/node_modules/jest-runner/build/testWorker.js:133:12)"
+          ],
+          "fullName": "Datastructures in Javascript should return the total for the numbers provided in the array",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "failed",
+          "title": "should return the total for the numbers provided in the array"
+        },
+        {
+          "ancestorTitles": [
+            "Datastructures in Javascript"
+          ],
+          "duration": 1,
+          "failureDetails": [
+            {
+              "matcherResult": {
+                "expected": [
+                  {
+                    "name": "Autumn",
+                    "age": 6,
+                    "occupation": "Nuclear physicist"
+                  },
+                  {
+                    "name": "Harry",
+                    "age": 27,
+                    "occupation": "Professional Footballer"
+                  },
+                  {
+                    "name": "James",
+                    "age": 38,
+                    "occupation": "Racounteur"
+                  }
+                ],
+                "name": "toEqual",
+                "pass": false
+              }
+            }
+          ],
+          "failureMessages": [
+            "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\nExpected: \u001b[32m[{\"age\": 6, \"name\": \"Autumn\", \"occupation\": \"Nuclear physicist\"}, {\"age\": 27, \"name\": \"Harry\", \"occupation\": \"Professional Footballer\"}, {\"age\": 38, \"name\": \"James\", \"occupation\": \"Racounteur\"}]\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m\n    at Object.<anonymous> (/Users/jamesmiller/Code/pair-programming-test/src/datastructures/datastructures.test.js:78:20)\n    at Promise.then.completed (/Users/jamesmiller/Code/pair-programming-test/node_modules/jest-circus/build/utils.js:276:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/jamesmiller/Code/pair-programming-test/node_modules/jest-circus/build/utils.js:216:10)\n    at _callCircusTest (/Users/jamesmiller/Code/pair-programming-test/node_modules/jest-circus/build/run.js:212:40)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n    at _runTest (/Users/jamesmiller/Code/pair-programming-test/node_modules/jest-circus/build/run.js:149:3)\n    at _runTestsForDescribeBlock (/Users/jamesmiller/Code/pair-programming-test/node_modules/jest-circus/build/run.js:63:9)\n    at _runTestsForDescribeBlock (/Users/jamesmiller/Code/pair-programming-test/node_modules/jest-circus/build/run.js:57:9)\n    at run (/Users/jamesmiller/Code/pair-programming-test/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/Users/jamesmiller/Code/pair-programming-test/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)\n    at jestAdapter (/Users/jamesmiller/Code/pair-programming-test/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)\n    at runTestInternal (/Users/jamesmiller/Code/pair-programming-test/node_modules/jest-runner/build/runTest.js:380:16)\n    at runTest (/Users/jamesmiller/Code/pair-programming-test/node_modules/jest-runner/build/runTest.js:472:34)\n    at Object.worker (/Users/jamesmiller/Code/pair-programming-test/node_modules/jest-runner/build/testWorker.js:133:12)"
+          ],
+          "fullName": "Datastructures in Javascript should sort the array of objects by name order",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "failed",
+          "title": "should sort the array of objects by name order"
+        }
+      ],
+      "failureMessage": "\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mDatastructures in Javascript › should add two arrays together in the order provided\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n    Expected: \u001b[32m[0, 2, 4, 6, 10, 20]\u001b[39m\n    Received: \u001b[31mundefined\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 12 |\u001b[39m     \u001b[36mconst\u001b[39m arr2 \u001b[33m=\u001b[39m [\u001b[35m6\u001b[39m\u001b[33m,\u001b[39m \u001b[35m10\u001b[39m\u001b[33m,\u001b[39m \u001b[35m20\u001b[39m]\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 13 |\u001b[39m     \u001b[36mconst\u001b[39m result \u001b[33m=\u001b[39m addTwoArrays(arr1\u001b[33m,\u001b[39m arr2)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 14 |\u001b[39m     expect(result)\u001b[33m.\u001b[39mtoEqual([\u001b[35m0\u001b[39m\u001b[33m,\u001b[39m \u001b[35m2\u001b[39m\u001b[33m,\u001b[39m \u001b[35m4\u001b[39m\u001b[33m,\u001b[39m \u001b[35m6\u001b[39m\u001b[33m,\u001b[39m \u001b[35m10\u001b[39m\u001b[33m,\u001b[39m \u001b[35m20\u001b[39m])\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    |\u001b[39m                    \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 15 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 16 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 17 |\u001b[39m   it(\u001b[32m\"should remove even numbers from the array\"\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[22m\u001b[2m\u001b[0m\u001b[36msrc/datastructures/datastructures.test.js\u001b[39m\u001b[0m\u001b[2m:14:20)\u001b[22m\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mDatastructures in Javascript › should remove even numbers from the array\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n    Expected: \u001b[32m[1, 7, 5]\u001b[39m\n    Received: \u001b[31mundefined\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 18 |\u001b[39m     \u001b[36mconst\u001b[39m arr \u001b[33m=\u001b[39m [\u001b[35m1\u001b[39m\u001b[33m,\u001b[39m \u001b[35m7\u001b[39m\u001b[33m,\u001b[39m \u001b[35m8\u001b[39m\u001b[33m,\u001b[39m \u001b[35m2\u001b[39m\u001b[33m,\u001b[39m \u001b[35m4\u001b[39m\u001b[33m,\u001b[39m \u001b[35m5\u001b[39m]\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 19 |\u001b[39m     \u001b[36mconst\u001b[39m result \u001b[33m=\u001b[39m removeEvenNumbers(arr)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 20 |\u001b[39m     expect(result)\u001b[33m.\u001b[39mtoEqual([\u001b[35m1\u001b[39m\u001b[33m,\u001b[39m \u001b[35m7\u001b[39m\u001b[33m,\u001b[39m \u001b[35m5\u001b[39m])\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    |\u001b[39m                    \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 21 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 22 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 23 |\u001b[39m   it(\u001b[32m\"should return the correct boolean if the number can be located in the array\"\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[22m\u001b[2m\u001b[0m\u001b[36msrc/datastructures/datastructures.test.js\u001b[39m\u001b[0m\u001b[2m:20:20)\u001b[22m\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mDatastructures in Javascript › should return the correct boolean if the number can be located in the array\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n    Expected: \u001b[32mtrue\u001b[39m\n    Received: \u001b[31mundefined\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 28 |\u001b[39m     \u001b[36mconst\u001b[39m resultNumberInArray \u001b[33m=\u001b[39m locateNumber(arr\u001b[33m,\u001b[39m numberInArray)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 29 |\u001b[39m     \u001b[36mconst\u001b[39m resultNumberNotInArray \u001b[33m=\u001b[39m locateNumber(arr\u001b[33m,\u001b[39m numberNotInArray)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 30 |\u001b[39m     expect(resultNumberInArray)\u001b[33m.\u001b[39mtoEqual(\u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    |\u001b[39m                                 \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 31 |\u001b[39m     expect(resultNumberNotInArray)\u001b[33m.\u001b[39mtoEqual(\u001b[36mfalse\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 32 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 33 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[22m\u001b[2m\u001b[0m\u001b[36msrc/datastructures/datastructures.test.js\u001b[39m\u001b[0m\u001b[2m:30:33)\u001b[22m\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mDatastructures in Javascript › should return the total for the numbers provided in the array\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n    Expected: \u001b[32m10\u001b[39m\n    Received: \u001b[31mundefined\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 35 |\u001b[39m     \u001b[36mconst\u001b[39m arr \u001b[33m=\u001b[39m [\u001b[35m1\u001b[39m\u001b[33m,\u001b[39m \u001b[35m2\u001b[39m\u001b[33m,\u001b[39m \u001b[35m3\u001b[39m\u001b[33m,\u001b[39m \u001b[35m4\u001b[39m]\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 36 |\u001b[39m     \u001b[36mconst\u001b[39m result \u001b[33m=\u001b[39m calculateTotal(arr)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 37 |\u001b[39m     expect(result)\u001b[33m.\u001b[39mtoEqual(\u001b[35m10\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    |\u001b[39m                    \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 38 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 39 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 40 |\u001b[39m   it(\u001b[32m\"should sort the array of objects by name order\"\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[22m\u001b[2m\u001b[0m\u001b[36msrc/datastructures/datastructures.test.js\u001b[39m\u001b[0m\u001b[2m:37:20)\u001b[22m\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mDatastructures in Javascript › should sort the array of objects by name order\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n    Expected: \u001b[32m[{\"age\": 6, \"name\": \"Autumn\", \"occupation\": \"Nuclear physicist\"}, {\"age\": 27, \"name\": \"Harry\", \"occupation\": \"Professional Footballer\"}, {\"age\": 38, \"name\": \"James\", \"occupation\": \"Racounteur\"}]\u001b[39m\n    Received: \u001b[31mundefined\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 76 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 77 |\u001b[39m     \u001b[36mconst\u001b[39m result \u001b[33m=\u001b[39m sortedArrayOfObjects(people)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 78 |\u001b[39m     expect(result)\u001b[33m.\u001b[39mtoEqual(peopleResult)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    |\u001b[39m                    \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 79 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 80 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 81 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[22m\u001b[2m\u001b[0m\u001b[36msrc/datastructures/datastructures.test.js\u001b[39m\u001b[0m\u001b[2m:78:20)\u001b[22m\u001b[2m\u001b[22m\n"
+    }
+  ],
+  "wasInterrupted": false
+}
