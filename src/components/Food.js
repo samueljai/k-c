@@ -5,8 +5,13 @@ import FoodList from './FoodList/FoodList';
 const Food = (props) => {
     const [foodList, setFoodList] = useState(null);
 
+    async function getFoodData() {
+        const data = await fetchFood();
+        setFoodList(data);
+    }
+
     useEffect(() => {
-        fetchFood().then((foodData) => setFoodList(foodData));
+        getFoodData();
     }, []);
 
     if (!foodList) {
