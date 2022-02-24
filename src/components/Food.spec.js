@@ -37,7 +37,7 @@ describe('Food List', () => {
             render(<Food />, container);
         });
 
-        expect(container.querySelector('li')).toBeInTheDocument();
+        expect(container.querySelectorAll('.foodListItem').length).toBe(3);
 
         global.fetch.mockRestore();
     });
