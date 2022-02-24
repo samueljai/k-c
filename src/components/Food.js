@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { fetchFood } from '../api/food';
 import FoodList from './FoodList/FoodList';
-import './food.css';
 
 const Food = (props) => {
     const [foodList, setFoodList] = useState(null);
