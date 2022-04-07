@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import Stars from '../Common/Stars/Stars';
 import './foodListItem.scss';
-import Stars from './components/Stars/Stars';
 
 const FoodListItem = ({ foodItem }) => {
     return (

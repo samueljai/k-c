@@ -1,5 +1,5 @@
 import React from 'react';
-import { getImage } from '../../../../Images/images';
+import { getImage } from '../../../Images/images';
 import './star.scss';
 
 const Star = () => {
