@@ -1,44 +1,40 @@
-import React from 'react';
-// import { render, waitFor, screen } from '@testing-library/react';
-import { render, unmountComponentAtNode } from 'react-dom';
-import { act } from 'react-dom/test-utils';
+import { RootStoreProvider } from '../providers/RootStoreProvider';
+import RootStore from '../stores/RootStore';
+import {
+    render,
+    waitForElementToBeRemoved,
+    screen,
+} from '@testing-library/react';
 import Food from './Food';
-import { foodListData } from '../mocks/mockFoodListData';
 
-let container = null;
+// Fake timers using Jest
 beforeEach(() => {
-    container = document.createElement('div');
-    document.body.appendChild(container);
+    jest.useFakeTimers();
 });
 
+// Running all pending timers and switching to real timers using Jest
 afterEach(() => {
-    unmountComponentAtNode(container);
-    container.remove();
-    container = null;
+    jest.runOnlyPendingTimers();
+    jest.useRealTimers();
 });
 
 describe('Food List', () => {
-    it('returns 14 LI', async () => {
-        // this test requires the @testing-library/react render
-        // render(<Food />);
-        // await waitFor(() =>
-        //     expect(screen.queryAllByRole('listitem').length).toBe(14)
-        // );
-    });
-    it('returns 3 LI', async () => {
-        // this test requires the react-dom render
-        jest.spyOn(global, 'fetch').mockImplementation(() =>
-            Promise.resolve({
-                json: () => Promise.resolve(foodListData),
-            })
+    it('renders a loading spinner, then a header, sort by and food list component once loaded', async () => {
+        const rootStore = new RootStore();
+
+        render(
+            <RootStoreProvider rootStore={rootStore}>
+                <Food />
+            </RootStoreProvider>
         );
 
-        await act(async () => {
-            render(<Food />, container);
-        });
+        expect(screen.getByTestId('loadingSpinner')).toBeInTheDocument();
+        await waitForElementToBeRemoved(() =>
+            screen.getByTestId('loadingSpinner')
+        );
 
-        expect(container.querySelectorAll('.foodListItem').length).toBe(3);
-
-        global.fetch.mockRestore();
+        expect(screen.getByText('World Food')).toBeInTheDocument();
+        expect(screen.getByTestId('sortBy')).toBeInTheDocument();
+        expect(screen.getByTestId('foodlist')).toBeInTheDocument();
     });
 });

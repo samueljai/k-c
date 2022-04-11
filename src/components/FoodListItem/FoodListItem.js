@@ -1,4 +1,3 @@
-import React from 'react';
 import PropTypes from 'prop-types';
 import Stars from '../Common/Stars/Stars';
 import './foodListItem.scss';

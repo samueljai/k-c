@@ -1,4 +1,3 @@
-import React from 'react';
 import { getImage } from '../../../Images/images';
 import './star.scss';
 

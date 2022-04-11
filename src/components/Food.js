@@ -1,28 +1,37 @@
-import React, { useEffect, useState } from 'react';
-import { fetchFood } from '../api/food';
+import { useEffect } from 'react';
+import { observer } from 'mobx-react';
+import { useRootStore } from '../providers/RootStoreProvider';
+import Loading from './Common/Loading/Loading';
+import Error from './Common/Error/Error';
 import FoodList from './FoodList/FoodList';
+import Header from './Header/Header';
+import SortBy from './Sort/SortBy';
+import './food.scss';
 
-const Food = (props) => {
-    const [foodList, setFoodList] = useState(null);
-
-    async function getFoodData() {
-        const data = await fetchFood();
-        setFoodList(data);
-    }
+const Food = () => {
+    const {
+        foodStore: { fetchFoodList, isLoading, hasError, foodList },
+    } = useRootStore();
 
     useEffect(() => {
-        getFoodData();
-    }, []);
+        fetchFoodList();
+    }, [fetchFoodList]);
 
-    if (!foodList) {
-        return null;
+    if (isLoading) {
+        return <Loading />;
+    }
+
+    if (hasError) {
+        return <Error />;
     }
 
     return (
         <div className="food">
+            <Header />
+            <SortBy />
             <FoodList foodList={foodList} />
         </div>
     );
 };
 
-export default Food;
+export default observer(Food);

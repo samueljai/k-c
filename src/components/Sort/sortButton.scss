@@ -1,0 +1,19 @@
+.sortButton {
+    width: 60px;
+    padding: 10px;
+    border: none;
+    border-right: 1px solid #17317f;
+    color: #17317f;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 600;
+    &:last-of-type {
+        border: none;
+    }
+}
+
+.sortButton--selected {
+    background-color: #17317f;
+    color: #ffffff;
+    cursor: default;
+}

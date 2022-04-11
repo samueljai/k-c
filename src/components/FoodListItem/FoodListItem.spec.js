@@ -1,10 +1,10 @@
 import { render, screen } from '@testing-library/react';
 import FoodListItem from './FoodListItem';
-import { foodListData } from '../../mocks/mockFoodListData';
+import { mockFoodListData } from '../../mocks/foodListDataMock';
 
 describe('FoodListItem', () => {
     it('renders the corrct name for a given food item', () => {
-        const foodItem = foodListData[0];
+        const foodItem = mockFoodListData[0];
 
         render(<FoodListItem foodItem={foodItem} />);
 
@@ -13,7 +13,7 @@ describe('FoodListItem', () => {
     });
 
     it('renders the corrct origin for a given food item', () => {
-        const foodItem = foodListData[1];
+        const foodItem = mockFoodListData[1];
 
         render(<FoodListItem foodItem={foodItem} />);
 
@@ -22,7 +22,7 @@ describe('FoodListItem', () => {
     });
 
     it('renders the correct number of stars', () => {
-        const foodItem = foodListData[2];
+        const foodItem = mockFoodListData[2];
 
         render(<FoodListItem foodItem={foodItem} />);
 
