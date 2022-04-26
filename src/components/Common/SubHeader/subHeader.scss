@@ -1,0 +1,16 @@
+@import '../../../styles/variables.scss';
+
+.subHeader {
+    width: 100%;
+    text-align: center;
+    background-color: $kinDarkColor;
+    padding: 20px 0;
+}
+
+.subHeader > h2 {
+    margin: 0;
+    color: #ffffff;
+    font-size: 40px;
+    font-family: 'DM Serif Display', serif;
+    letter-spacing: 5px;
+}

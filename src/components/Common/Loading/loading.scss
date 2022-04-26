@@ -1,6 +1,13 @@
+@import '../../../styles/variables.scss';
+
 .loading {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100vw;
     height: 100vh;
+    z-index: 1000;
+    background-color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,7 +23,7 @@
     position: absolute;
     width: 6px;
     height: 6px;
-    background: #17317f;
+    background: $kinHighlightColor;
     border-radius: 50%;
     animation: loadingSpinner 1.2s linear infinite;
 }

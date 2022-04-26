@@ -1,0 +1,27 @@
+@import '../../../styles/variables.scss';
+
+.sortButton {
+    width: 60px;
+    padding: 10px;
+    border: none;
+    border-right: 1px solid $kinMediumColor;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 600;
+    &:last-of-type {
+        border: none;
+    }
+}
+
+.sortButton--selected {
+    background-color: $kinMediumColor;
+    color: #ffffff;
+    cursor: default;
+}
+
+.sortButton--notSelected {
+    color: $kinMediumColor;
+    &:hover {
+        color: $kinHighlightColor;
+    }
+}

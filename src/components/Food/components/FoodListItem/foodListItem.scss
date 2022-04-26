@@ -1,0 +1,24 @@
+@import '../../../../styles/variables.scss';
+
+.foodListItem {
+    width: 100%;
+    max-width: 768px;
+
+    @media screen and (min-width: $tablet-break) {
+        max-width: 230px;
+    }
+}
+
+.foodListItem__info {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.foodListItem__info > h4,
+h5 {
+    margin: 10px 0;
+}

@@ -1,0 +1,36 @@
+@import '../../../../styles/variables.scss';
+
+.beachListItem {
+    width: 100%;
+    max-width: 768px;
+
+    @media screen and (min-width: $tablet-break) {
+        max-width: 230px;
+    }
+}
+
+.beachListItem__info {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.beachListItem__infoName {
+    margin: 0;
+}
+
+.beachListItem__infoDescription {
+    margin: 10px 0 0;
+    @media screen and (min-width: $mobileLarge-break) {
+        max-height: 64px;
+        width: 100%;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+}

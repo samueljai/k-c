@@ -1,0 +1,30 @@
+@import '../../styles/variables.scss';
+
+.beaches {
+    width: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.beaches__content {
+    margin: 20px 0 0;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.beaches__sortBy {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @media screen and (min-width: $mobileLarge-break) {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
