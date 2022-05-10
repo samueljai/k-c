@@ -1,9 +1,20 @@
-import PropTypes from 'prop-types';
 import Card from '../../../Common/Card/Card';
 import Stars from '../../../Common/Stars/Stars';
 import './foodListItem.scss';
 
-const FoodListItem = ({ foodItem }) => {
+export type FoodItemProps = {
+    id: number;
+    image: string;
+    name: string;
+    origin: string;
+    starRating: number;
+};
+
+type FoodListItemProps = {
+    foodItem: FoodItemProps;
+};
+
+const FoodListItem = ({ foodItem }: FoodListItemProps) => {
     return (
         <li className="foodListItem">
             <Card imgSrc={foodItem.image} imgAlt="foodImage">
@@ -15,10 +26,6 @@ const FoodListItem = ({ foodItem }) => {
             </Card>
         </li>
     );
-};
-
-FoodListItem.propTypes = {
-    foodItem: PropTypes.object,
 };
 
 export default FoodListItem;

@@ -3,7 +3,7 @@ import { observer } from 'mobx-react';
 import { useRootStore } from '../../providers/RootStoreProvider';
 import Loading from '../Common/Loading/Loading';
 import Error from '../Common/Error/Error';
-import GlobalLayout from '../../Layout/GlobalLayout';
+import GlobalLayout from '../Layout/GlobalLayout';
 import SubHeader from '../Common/SubHeader/SubHeader';
 import SortBy from '../Common/Sort/SortBy';
 import BeachList from './Components/BeachList/BeachList';
@@ -35,11 +35,11 @@ const Beaches = () => {
         return <Error />;
     }
 
-    const handleSortFieldChange = (sortField) => {
+    const handleSortFieldChange = (sortField: string) => {
         sortByField(sortField);
     };
 
-    const handleSortOrderChange = (sortOrder) => {
+    const handleSortOrderChange = (sortOrder: string) => {
         sortByOrder(sortOrder);
     };
 

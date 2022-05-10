@@ -1,6 +1,10 @@
 import './header.scss';
 
-const Header = ({ title }) => {
+type HeaderProps = {
+    title: string;
+};
+
+const Header = ({ title }: HeaderProps) => {
     return (
         <header className="header">
             <h1>{title}</h1>

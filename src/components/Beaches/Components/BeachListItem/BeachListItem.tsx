@@ -2,7 +2,18 @@ import PropTypes from 'prop-types';
 import Card from '../../../Common/Card/Card';
 import './beachListItem.scss';
 
-const BeachListItem = ({ beachItem }) => {
+export type BeachItemProps = {
+    index: number;
+    image: string;
+    name: string;
+    description: string;
+};
+
+type BeachListItemProps = {
+    beachItem: BeachItemProps;
+};
+
+const BeachListItem = ({ beachItem }: BeachListItemProps) => {
     return (
         <li className="beachListItem">
             <Card imgSrc={beachItem.image} imgAlt="beachImage">

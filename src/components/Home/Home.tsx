@@ -1,4 +1,4 @@
-import GlobalLayout from '../../Layout/GlobalLayout';
+import GlobalLayout from '../Layout/GlobalLayout';
 import ArticleCard from '../Common/ArticleCard/ArticleCard';
 import './home.scss';
 
