@@ -1,8 +1,11 @@
-import PropTypes from 'prop-types';
-import BeachListItem from '../BeachListItem/BeachListItem';
+import BeachListItem, { BeachItemProps } from '../BeachListItem/BeachListItem';
 import './beachList.scss';
 
-const BeachList = ({ beachList }) => {
+type BeachListProps = {
+    beachList: BeachItemProps[];
+};
+
+const BeachList = ({ beachList }: BeachListProps) => {
     return (
         <ul className="beachList" data-testid="beachList">
             {beachList.map((beachItem) => (
@@ -10,10 +13,6 @@ const BeachList = ({ beachList }) => {
             ))}
         </ul>
     );
-};
-
-BeachList.propTypes = {
-    beachList: PropTypes.array,
 };
 
 export default BeachList;

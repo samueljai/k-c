@@ -1,7 +1,12 @@
-import PropTypes from 'prop-types';
 import './card.scss';
 
-const Card = ({ children, imgSrc, imgAlt }) => {
+type CardProps = {
+    children: React.ReactNode;
+    imgSrc: string;
+    imgAlt: string;
+};
+
+const Card = ({ children, imgSrc, imgAlt }: CardProps) => {
     return (
         <article className="card">
             <div className="card__imageOuter">
@@ -12,12 +17,6 @@ const Card = ({ children, imgSrc, imgAlt }) => {
             <div className="card__info">{children}</div>
         </article>
     );
-};
-
-Card.propTypes = {
-    children: PropTypes.node,
-    imgSrc: PropTypes.string,
-    imgAlt: PropTypes.string,
 };
 
 export default Card;

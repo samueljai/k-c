@@ -1,10 +1,21 @@
-import PropTypes from 'prop-types';
 import { observer } from 'mobx-react';
 import classNames from 'classnames';
 import Button from '../Button/Button';
 import './sortButton.scss';
 
-const SortButton = ({ text, currentlySelected, sortField, onClick }) => {
+export type SortButtonProps = {
+    text: string;
+    currentlySelected: string;
+    sortField: string;
+    onClick: (x: string) => void;
+};
+
+const SortButton = ({
+    text,
+    currentlySelected,
+    sortField,
+    onClick,
+}: SortButtonProps) => {
     const isSelectedButton = sortField === currentlySelected;
     const sortButtonClassname = classNames(
         'sortButton',
@@ -24,13 +35,6 @@ const SortButton = ({ text, currentlySelected, sortField, onClick }) => {
             onClick={handleClick}
         />
     );
-};
-
-SortButton.propTypes = {
-    text: PropTypes.string,
-    currentlySelected: PropTypes.string,
-    sortField: PropTypes.string,
-    onClick: PropTypes.func,
 };
 
 export default observer(SortButton);

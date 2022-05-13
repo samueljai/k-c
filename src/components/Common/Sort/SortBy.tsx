@@ -1,8 +1,13 @@
-import React from 'react';
-import SortButton from './SortButton';
+import SortButton, { SortButtonProps } from './SortButton';
 import './sortBy.scss';
 
-const SortBy = ({ classname, sortButtons, testId }) => {
+type SortByProps = {
+    classname: string;
+    sortButtons: SortButtonProps[];
+    testId: string;
+};
+
+const SortBy = ({ classname, sortButtons, testId }: SortByProps) => {
     return (
         <section
             className={`sortBy__${classname}`}

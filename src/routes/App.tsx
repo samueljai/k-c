@@ -3,7 +3,7 @@ import Home from '../components/Home/Home';
 import Food from '../components/Food/Food';
 import Beaches from '../components/Beaches/Beaches';
 
-function App(props) {
+function App() {
     return (
         <BrowserRouter>
             <Routes>
