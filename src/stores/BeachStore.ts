@@ -1,14 +1,18 @@
 import { makeAutoObservable } from 'mobx';
 import { fetchBeaches } from '../services/beachService';
 import orderBy from 'lodash.orderby';
+import { BeachItemProps } from '../components/Beaches/Components/BeachListItem/BeachListItem';
+
+type BeachListType = BeachItemProps[] | null;
+export type SortFieldType = 'name' | 'index';
+export type SortOrderType = 'asc' | 'desc';
 
 class BeachStore {
-    _beachList = null;
+    _beachList: BeachListType = null;
     isLoading = false;
     hasError = false;
-    beachListError = null;
-    sortField = 'index';
-    sortOrder = 'asc';
+    sortField: SortFieldType = 'index';
+    sortOrder: SortOrderType = 'asc';
 
     constructor() {
         makeAutoObservable(this);
@@ -21,14 +25,13 @@ class BeachStore {
             .catch(this.fetchBeachListError);
     };
 
-    fetchBeachListSuccess = ({ data }) => {
-        this._beachList = data;
+    fetchBeachListSuccess = (beachList: BeachListType) => {
+        this._beachList = beachList;
         this.hasError = false;
         this.isLoading = false;
     };
 
-    fetchBeachListError = (error) => {
-        this.beachListError = error;
+    fetchBeachListError = () => {
         this.hasError = true;
         this.isLoading = false;
     };
@@ -43,11 +46,11 @@ class BeachStore {
         return orderedBeachList;
     }
 
-    sortByField = (sortField) => {
+    sortByField = (sortField: SortFieldType) => {
         this.sortField = sortField;
     };
 
-    sortByOrder = (sortOrder) => {
+    sortByOrder = (sortOrder: SortOrderType) => {
         this.sortOrder = sortOrder;
     };
 }

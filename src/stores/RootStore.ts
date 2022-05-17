@@ -3,8 +3,8 @@ import FoodStore from './FoodStore';
 import BeachStore from './BeachStore';
 
 class RootStore {
-    foodStore = null;
-    beachStore = null;
+    foodStore: FoodStore;
+    beachStore: BeachStore;
 
     constructor() {
         this.foodStore = new FoodStore();

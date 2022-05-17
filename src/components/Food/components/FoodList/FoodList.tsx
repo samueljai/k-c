@@ -1,8 +1,8 @@
 import FoodListItem, { FoodItemProps } from '../FoodListItem/FoodListItem';
 import './foodList.scss';
 
-type FoodListProps = {
-    foodList: FoodItemProps[];
+export type FoodListProps = {
+    foodList: FoodItemProps[] | null;
 };
 
 const FoodList = ({ foodList }: FoodListProps) => {

@@ -8,7 +8,7 @@ function fetchBeaches() {
             const beachListData = getBeachListData();
 
             if (beachListData) {
-                resolve(beachListData);
+                resolve(beachListData.beachList);
             } else {
                 reject(errorMessage);
             }

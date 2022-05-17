@@ -3,20 +3,21 @@ import classNames from 'classnames';
 import Button from '../Button/Button';
 import './sortButton.scss';
 
-export type SortButtonProps = {
+export type SortButtonType<T> = {
     text: string;
-    currentlySelected: string;
-    sortField: string;
-    onClick: (x: string) => void;
+    currentlySelected: T;
+    sortValue: T;
+    onClick: (sortValue: T) => void;
 };
 
-const SortButton = ({
-    text,
-    currentlySelected,
-    sortField,
-    onClick,
-}: SortButtonProps) => {
-    const isSelectedButton = sortField === currentlySelected;
+type SortButtonProps<T> = {
+    sortButton: SortButtonType<T>;
+};
+
+function SortButton<T>({ sortButton }: SortButtonProps<T>) {
+    const { currentlySelected, text, sortValue, onClick } = sortButton;
+
+    const isSelectedButton = sortValue === currentlySelected;
     const sortButtonClassname = classNames(
         'sortButton',
         isSelectedButton && 'sortButton--selected',
@@ -24,17 +25,17 @@ const SortButton = ({
     );
 
     const handleClick = () => {
-        !isSelectedButton && onClick(sortField);
+        !isSelectedButton && onClick(sortValue);
     };
 
     return (
         <Button
-            dataTestId={`sortButton-${sortField}`}
+            dataTestId={`sortButton-${sortValue}`}
             className={sortButtonClassname}
             buttonText={text}
             onClick={handleClick}
         />
     );
-};
+}
 
 export default observer(SortButton);

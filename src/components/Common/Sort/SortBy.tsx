@@ -1,13 +1,13 @@
-import SortButton, { SortButtonProps } from './SortButton';
+import SortButton, { SortButtonType } from './SortButton';
 import './sortBy.scss';
 
-type SortByProps = {
+type SortByProps<T> = {
     classname: string;
-    sortButtons: SortButtonProps[];
     testId: string;
+    sortButtons: SortButtonType<T>[];
 };
 
-const SortBy = ({ classname, sortButtons, testId }: SortByProps) => {
+function SortBy<T>({ classname, testId, sortButtons }: SortByProps<T>) {
     return (
         <section
             className={`sortBy__${classname}`}
@@ -15,16 +15,10 @@ const SortBy = ({ classname, sortButtons, testId }: SortByProps) => {
         >
             {sortButtons &&
                 sortButtons.map((sortButton, index) => (
-                    <SortButton
-                        key={index}
-                        text={sortButton.text}
-                        currentlySelected={sortButton.currentlySelected}
-                        sortField={sortButton.sortField}
-                        onClick={sortButton.onClick}
-                    />
+                    <SortButton<T> key={index} sortButton={sortButton} />
                 ))}
         </section>
     );
-};
+}
 
 export default SortBy;

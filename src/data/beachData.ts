@@ -1,5 +1,5 @@
 const beachListData = {
-    data: [
+    beachList: [
         {
             description: 'This serene Grecian beauty is a Mykonos favourite.',
             image: 'https://img.delicious.com.au/OfgQpPeT/del/2019/09/agia-anna-beach-mykonos-greece-114879-2.jpg',

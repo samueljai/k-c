@@ -51,6 +51,7 @@
     ]
   },
   "devDependencies": {
+    "@types/lodash.orderby": "^4.6.7",
     "jest-stare": "^2.2.2",
     "msw": "^0.39.2"
   }

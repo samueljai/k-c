@@ -1,9 +1,9 @@
 import star from './star.png';
 
-const images = {
+const images: any = {
     star,
 };
 
-export function getImage(imageName) {
+export function getImage(imageName: string) {
     return images[imageName];
 }

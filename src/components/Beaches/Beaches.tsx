@@ -1,13 +1,18 @@
 import { useEffect } from 'react';
 import { observer } from 'mobx-react';
 import { useRootStore } from '../../providers/RootStoreProvider';
+import { SortFieldType, SortOrderType } from '../../stores/BeachStore';
 import Loading from '../Common/Loading/Loading';
 import Error from '../Common/Error/Error';
 import GlobalLayout from '../Layout/GlobalLayout';
 import SubHeader from '../Common/SubHeader/SubHeader';
 import SortBy from '../Common/Sort/SortBy';
+import { SortButtonType } from '../Common/Sort/SortButton';
 import BeachList from './Components/BeachList/BeachList';
 import './beaches.scss';
+
+type SortFieldButtonsType = SortButtonType<SortFieldType>[];
+type SortOrderButtonsType = SortButtonType<SortOrderType>[];
 
 const Beaches = () => {
     const {
@@ -35,40 +40,40 @@ const Beaches = () => {
         return <Error />;
     }
 
-    const handleSortFieldChange = (sortField: string) => {
-        sortByField(sortField);
+    const handleSortFieldChange = (sortValue: SortFieldType) => {
+        sortByField(sortValue);
     };
 
-    const handleSortOrderChange = (sortOrder: string) => {
-        sortByOrder(sortOrder);
+    const handleSortOrderChange = (sortValue: SortOrderType) => {
+        sortByOrder(sortValue);
     };
 
-    const sortFieldButtons = [
+    const sortFieldButtons: SortFieldButtonsType = [
         {
             text: 'Rating',
             currentlySelected: sortField,
-            sortField: 'index',
+            sortValue: 'index',
             onClick: handleSortFieldChange,
         },
         {
             text: 'Name',
             currentlySelected: sortField,
-            sortField: 'name',
+            sortValue: 'name',
             onClick: handleSortFieldChange,
         },
     ];
 
-    const sortOrderButtons = [
+    const sortOrderButtons: SortOrderButtonsType = [
         {
             text: 'Asc',
             currentlySelected: sortOrder,
-            sortField: 'asc',
+            sortValue: 'asc',
             onClick: handleSortOrderChange,
         },
         {
             text: 'Desc',
             currentlySelected: sortOrder,
-            sortField: 'desc',
+            sortValue: 'desc',
             onClick: handleSortOrderChange,
         },
     ];
@@ -79,12 +84,12 @@ const Beaches = () => {
                 <SubHeader title="Beaches" />
                 <section className="beaches__content">
                     <div className="beaches__sortBy">
-                        <SortBy
+                        <SortBy<SortFieldType>
                             classname="field"
                             testId="field"
                             sortButtons={sortFieldButtons}
                         />
-                        <SortBy
+                        <SortBy<SortOrderType>
                             classname="order"
                             testId="order"
                             sortButtons={sortOrderButtons}

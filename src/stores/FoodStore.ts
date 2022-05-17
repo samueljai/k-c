@@ -1,14 +1,18 @@
 import { makeAutoObservable } from 'mobx';
 import { fetchFood } from '../services/foodService';
 import orderBy from 'lodash.orderby';
+import { FoodItemProps } from '../components/Food/components/FoodListItem/FoodListItem';
+
+type FoodListType = FoodItemProps[] | null;
+export type SortFieldType = 'name' | 'origin' | 'starRating';
+export type SortOrderType = 'asc' | 'desc';
 
 class FoodStore {
-    _foodList = null;
+    _foodList: FoodListType = null;
     isLoading = false;
     hasError = false;
-    foodListError = null;
-    sortField = 'name';
-    sortOrder = 'asc';
+    sortField: SortFieldType = 'name';
+    sortOrder: SortOrderType = 'asc';
 
     constructor() {
         makeAutoObservable(this);
@@ -21,14 +25,13 @@ class FoodStore {
             .catch(this.fetchFoodListError);
     };
 
-    fetchFoodListSuccess = (foodList) => {
+    fetchFoodListSuccess = (foodList: FoodListType) => {
         this._foodList = foodList;
         this.hasError = false;
         this.isLoading = false;
     };
 
-    fetchFoodListError = (error) => {
-        this.foodListError = error;
+    fetchFoodListError = () => {
         this.hasError = true;
         this.isLoading = false;
     };
@@ -43,11 +46,11 @@ class FoodStore {
         return orderedFoodList;
     }
 
-    sortByField = (sortField) => {
+    sortByField = (sortField: SortFieldType) => {
         this.sortField = sortField;
     };
 
-    sortByOrder = (sortOrder) => {
+    sortByOrder = (sortOrder: SortOrderType) => {
         this.sortOrder = sortOrder;
     };
 }
