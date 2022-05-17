@@ -1,7 +1,9 @@
+import { FoodItemProps } from '../components/Food/components/FoodListItem/FoodListItem';
+
 const foodDataUrl =
     'https://pair-programming-test.s3.eu-west-2.amazonaws.com/cuisine.json';
 
-function fetchFood() {
+function fetchFood(): Promise<FoodItemProps[]> {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
             fetch(foodDataUrl)
