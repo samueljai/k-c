@@ -4,7 +4,7 @@ import { mockBeachListData } from '../../../../mocks/beachListDataMock';
 
 describe('BeachListItem', () => {
     it('renders the corrct name for a given beach item', () => {
-        const beachItem = mockBeachListData.data[0];
+        const beachItem = mockBeachListData.beachList[0];
 
         render(<BeachListItem beachItem={beachItem} />);
 
@@ -15,7 +15,7 @@ describe('BeachListItem', () => {
     });
 
     it('renders the corrct description for a given beach item', () => {
-        const beachItem = mockBeachListData.data[1];
+        const beachItem = mockBeachListData.beachList[1];
 
         render(<BeachListItem beachItem={beachItem} />);
 
@@ -24,7 +24,7 @@ describe('BeachListItem', () => {
     });
 
     it('renders the correct beach rating before the Name', () => {
-        const beachItem = mockBeachListData.data[2];
+        const beachItem = mockBeachListData.beachList[2];
 
         render(<BeachListItem beachItem={beachItem} />);
 

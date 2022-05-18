@@ -31,7 +31,7 @@ describe('BeachStore', () => {
     it('get beachList function should return the beachList', async () => {
         const beachStore = new BeachStore();
 
-        beachStore.fetchBeachListSuccess(mockBeachListData);
+        beachStore.fetchBeachListSuccess(mockBeachListData.beachList);
 
         const beachList = beachStore.beachList;
 

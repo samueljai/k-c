@@ -1,5 +1,5 @@
 const mockBeachListData = {
-    data: [
+    beachList: [
         {
             index: 1,
             name: 'Cala Macarella Beach, Spain',

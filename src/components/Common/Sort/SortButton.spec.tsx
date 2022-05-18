@@ -5,24 +5,28 @@ describe('SortButton', () => {
     it('renders a button with the provided text prop', () => {
         const handleClick = jest.fn();
         const props = {
-            text: 'Origin',
-            currentlySelected: 'name',
-            sortField: 'origin',
-            onClick: handleClick,
+            sortButton: {
+                text: 'Origin',
+                currentlySelected: 'name',
+                sortValue: 'origin',
+                onClick: handleClick,
+            },
         };
 
         render(<SortButton {...props} />);
 
         const sortButton = screen.getByRole('button');
-        expect(sortButton).toHaveTextContent(props.text);
+        expect(sortButton).toHaveTextContent(props.sortButton.text);
     });
     it('renders a button without the "sortButton--selected" classname for a non selected button', () => {
         const handleClick = jest.fn();
         const props = {
-            text: 'Origin',
-            currentlySelected: 'name',
-            sortField: 'origin',
-            onClick: handleClick,
+            sortButton: {
+                text: 'Origin',
+                currentlySelected: 'name',
+                sortValue: 'origin',
+                onClick: handleClick,
+            },
         };
 
         render(<SortButton {...props} />);
@@ -33,10 +37,12 @@ describe('SortButton', () => {
     it('renders a button with the "sortButton--selected" classname for a selected button', () => {
         const handleClick = jest.fn();
         const props = {
-            text: 'Name',
-            currentlySelected: 'name',
-            sortField: 'name',
-            onClick: handleClick,
+            sortButton: {
+                text: 'Name',
+                currentlySelected: 'name',
+                sortValue: 'name',
+                onClick: handleClick,
+            },
         };
 
         render(<SortButton {...props} />);
@@ -47,10 +53,12 @@ describe('SortButton', () => {
     it('calls the provided onClick prop function when clicking a non selected button', () => {
         const handleClick = jest.fn();
         const props = {
-            text: 'Origin',
-            currentlySelected: 'name',
-            sortField: 'origin',
-            onClick: handleClick,
+            sortButton: {
+                text: 'Origin',
+                currentlySelected: 'name',
+                sortValue: 'origin',
+                onClick: handleClick,
+            },
         };
 
         render(<SortButton {...props} />);
@@ -62,10 +70,12 @@ describe('SortButton', () => {
     it('doesnt call the provided onClick prop when clicking an already selected button', () => {
         const handleClick = jest.fn();
         const props = {
-            text: 'Name',
-            currentlySelected: 'name',
-            sortField: 'name',
-            onClick: handleClick,
+            sortButton: {
+                text: 'Name',
+                currentlySelected: 'name',
+                sortValue: 'name',
+                onClick: handleClick,
+            },
         };
 
         render(<SortButton {...props} />);

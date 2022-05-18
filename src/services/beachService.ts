@@ -3,10 +3,10 @@ import { BeachItemProps } from '../components/Beaches/Components/BeachListItem/B
 
 const errorMessage = 'Error fetching data';
 
-function fetchBeaches(): Promise<BeachItemProps[]> {
+function fetchBeaches(returnData = true): Promise<BeachItemProps[]> {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
-            const beachListData = getBeachListData();
+            const beachListData = getBeachListData(returnData);
 
             if (beachListData) {
                 resolve(beachListData.beachList);

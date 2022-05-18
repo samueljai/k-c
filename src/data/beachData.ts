@@ -5,10 +5,6 @@ const beachListData = {
             image: 'https://img.delicious.com.au/OfgQpPeT/del/2019/09/agia-anna-beach-mykonos-greece-114879-2.jpg',
             index: 1,
             name: 'Agia Anna Beach, Mykonos, Greece',
-            timestamp: 1649772802799,
-            uid: 'Lz8An07twia8NUxU76Zt',
-            url: 'https://www.delicious.com.au/travel/international/gallery/50-best-beaches-world/mq1qh1g3?page=40',
-            url_uid: '1',
         },
         {
             description:
@@ -16,10 +12,6 @@ const beachListData = {
             image: 'https://img.delicious.com.au/DCEhvA74/del/2019/09/aruba-island-caribbean-sea-114880-2.jpg',
             index: 2,
             name: 'Aruba Island, Caribbean Sea',
-            timestamp: 1649772802799,
-            uid: 'HYaOyDxRVa5AGYvwXqjn',
-            url: 'https://www.delicious.com.au/travel/international/gallery/50-best-beaches-world/mq1qh1g3?page=40',
-            url_uid: '1',
         },
         {
             description:
@@ -27,10 +19,6 @@ const beachListData = {
             image: 'https://img.delicious.com.au/6M86eOVp/del/2019/09/balandra-beach-baja-california-mexico-114881-3.jpg',
             index: 3,
             name: 'Balandra Beach, Baja California, Mexico',
-            timestamp: 1649772802799,
-            uid: 'iaY2JDBpz5prUB2gqK6d',
-            url: 'https://www.delicious.com.au/travel/international/gallery/50-best-beaches-world/mq1qh1g3?page=40',
-            url_uid: '1',
         },
         {
             description:
@@ -38,10 +26,6 @@ const beachListData = {
             image: 'https://img.delicious.com.au/X4D43IIQ/del/2019/09/belle-mare-beach-mauritius-114882-1.jpg',
             index: 4,
             name: 'Belle Mare Beach, Mauritius',
-            timestamp: 1649772802799,
-            uid: 'lT2tpn0LmrcKyn2HQrF5',
-            url: 'https://www.delicious.com.au/travel/international/gallery/50-best-beaches-world/mq1qh1g3?page=40',
-            url_uid: '1',
         },
         {
             description:
@@ -49,10 +33,6 @@ const beachListData = {
             image: 'https://img.delicious.com.au/pRAHMS0F/del/2019/09/bells-beach-victoria-australia-114883-2.jpg',
             index: 5,
             name: 'Bells Beach, Victoria, Australia',
-            timestamp: 1649772802799,
-            uid: 'nB2HEnbjvsWf8tyjKawb',
-            url: 'https://www.delicious.com.au/travel/international/gallery/50-best-beaches-world/mq1qh1g3?page=40',
-            url_uid: '1',
         },
         {
             description:
@@ -60,10 +40,6 @@ const beachListData = {
             image: 'https://img.delicious.com.au/ueJ6pM4F/del/2019/09/ningaloo-reef-exmouth-wa-australia-114913-2.jpg',
             index: 6,
             name: 'Ningaloo Reef, Exmouth, WA, Australia',
-            timestamp: 1649772802799,
-            uid: 'KP8WnB5Fv4oLIeryv1Eg',
-            url: 'https://www.delicious.com.au/travel/international/gallery/50-best-beaches-world/mq1qh1g3?page=40',
-            url_uid: '1',
         },
         {
             description:
@@ -71,10 +47,6 @@ const beachListData = {
             image: 'https://img.delicious.com.au/EQTHB2k_/del/2019/09/blue-beach-puerto-rico-114884-1.jpg',
             index: 7,
             name: 'Blue Beach, Puerto Rico',
-            timestamp: 1649772802799,
-            uid: 'Hvds1NKyEPIk8veAWxME',
-            url: 'https://www.delicious.com.au/travel/international/gallery/50-best-beaches-world/mq1qh1g3?page=40',
-            url_uid: '1',
         },
         {
             description:
@@ -82,10 +54,6 @@ const beachListData = {
             image: 'https://img.delicious.com.au/JzaemKhf/del/2019/09/cala-macarella-beach-spain-114885-1.jpg',
             index: 8,
             name: 'Cala Macarella Beach, Spain',
-            timestamp: 1649772802799,
-            uid: '9DnZTXql69GyIJPEP6qg',
-            url: 'https://www.delicious.com.au/travel/international/gallery/50-best-beaches-world/mq1qh1g3?page=40',
-            url_uid: '1',
         },
         {
             description:
@@ -93,10 +61,6 @@ const beachListData = {
             image: 'https://img.delicious.com.au/0qTmrIKl/del/2019/09/castaway-island-fiji-114886-1.jpg',
             index: 9,
             name: 'Castaway Island, Fiji',
-            timestamp: 1649772802799,
-            uid: 'kfleW3X0AcnBOJAUnj8B',
-            url: 'https://www.delicious.com.au/travel/international/gallery/50-best-beaches-world/mq1qh1g3?page=40',
-            url_uid: '1',
         },
         {
             description:
@@ -104,10 +68,6 @@ const beachListData = {
             image: 'https://img.delicious.com.au/CI5lE3Vz/del/2019/09/chia-beach-sardinia-italy-114887-2.jpg',
             index: 10,
             name: 'Chia Beach, Sardinia, Italy',
-            timestamp: 1649772802799,
-            uid: 'AMOj3HZBcWmIT7f6KlZ2',
-            url: 'https://www.delicious.com.au/travel/international/gallery/50-best-beaches-world/mq1qh1g3?page=40',
-            url_uid: '1',
         },
         {
             description:
@@ -115,10 +75,6 @@ const beachListData = {
             image: 'https://img.delicious.com.au/yW0FyX6e/del/2019/09/crystal-bay-bali-indonesia-114888-2.jpg',
             index: 11,
             name: 'Crystal Bay, Bali, Indonesia',
-            timestamp: 1649772802799,
-            uid: 'NKl25e7xA51CjZHnYLWC',
-            url: 'https://www.delicious.com.au/travel/international/gallery/50-best-beaches-world/mq1qh1g3?page=40',
-            url_uid: '1',
         },
         {
             description:
@@ -126,10 +82,6 @@ const beachListData = {
             image: 'https://img.delicious.com.au/Ohvmgb2S/del/2019/09/el-nido-palawan-philippines-114889-1.jpg',
             index: 12,
             name: 'El Nido, Palawan, Philippines',
-            timestamp: 1649772802799,
-            uid: 'bIwgG1lUl8BIqMpWvQVe',
-            url: 'https://www.delicious.com.au/travel/international/gallery/50-best-beaches-world/mq1qh1g3?page=40',
-            url_uid: '1',
         },
         {
             description:
@@ -137,10 +89,6 @@ const beachListData = {
             image: 'https://img.delicious.com.au/BiGH_wTS/del/2019/09/elafoniysi-crete-greece-114890-1.jpg',
             index: 13,
             name: 'Elafonísi, Crete, Greece',
-            timestamp: 1649772802799,
-            uid: 'vWjqX8qjfKTHLaxvB4SJ',
-            url: 'https://www.delicious.com.au/travel/international/gallery/50-best-beaches-world/mq1qh1g3?page=40',
-            url_uid: '1',
         },
         {
             description:
@@ -148,10 +96,6 @@ const beachListData = {
             image: 'https://img.delicious.com.au/K0y4xVox/del/2019/09/gordons-bay-nsw-australia-114891-2.jpg',
             index: 14,
             name: "Gordon's Bay, NSW, Australia",
-            timestamp: 1649772802799,
-            uid: 'aNYGw667yn2DcZWDqBCT',
-            url: 'https://www.delicious.com.au/travel/international/gallery/50-best-beaches-world/mq1qh1g3?page=40',
-            url_uid: '1',
         },
         {
             description:
@@ -159,10 +103,6 @@ const beachListData = {
             image: 'https://img.delicious.com.au/mVAQY-q7/del/2019/09/grace-bay-turks-and-caicos-114892-1.jpg',
             index: 15,
             name: 'Grace Bay, Turks and Caicos',
-            timestamp: 1649772802799,
-            uid: 'gtbA2Pjlfzx8TZXUq0W7',
-            url: 'https://www.delicious.com.au/travel/international/gallery/50-best-beaches-world/mq1qh1g3?page=40',
-            url_uid: '1',
         },
         {
             description:
@@ -170,10 +110,6 @@ const beachListData = {
             image: 'https://img.delicious.com.au/quCP16aS/del/2019/09/hahei-bay-new-zealand-114893-2.jpg',
             index: 16,
             name: 'Hahei Bay, New Zealand',
-            timestamp: 1649772802799,
-            uid: 'l29Dss7nPt7iAVi6c8Fd',
-            url: 'https://www.delicious.com.au/travel/international/gallery/50-best-beaches-world/mq1qh1g3?page=40',
-            url_uid: '1',
         },
         {
             description:
@@ -181,10 +117,6 @@ const beachListData = {
             image: 'https://img.delicious.com.au/vdK7Oage/del/2019/09/hikkaduwa-sri-lanka-114894-1.jpg',
             index: 17,
             name: 'Hikkaduwa, Sri Lanka',
-            timestamp: 1649772802799,
-            uid: 'LCFaVDEmnoEueL2DvTzV',
-            url: 'https://www.delicious.com.au/travel/international/gallery/50-best-beaches-world/mq1qh1g3?page=40',
-            url_uid: '1',
         },
         {
             description:
@@ -192,10 +124,6 @@ const beachListData = {
             image: 'https://img.delicious.com.au/-GJiXxJo/del/2019/09/horseshoe-bay-bermuda-114896-1.jpg',
             index: 18,
             name: 'Horseshoe Bay, Bermuda',
-            timestamp: 1649772802799,
-            uid: 'stI1UQeEbHKo2Y9t8NJt',
-            url: 'https://www.delicious.com.au/travel/international/gallery/50-best-beaches-world/mq1qh1g3?page=40',
-            url_uid: '1',
         },
         {
             description:
@@ -203,10 +131,6 @@ const beachListData = {
             image: 'https://img.delicious.com.au/78Ic1hyg/del/2019/09/hyams-beach-nsw-australia-114897-2.jpg',
             index: 19,
             name: 'Hyams Beach, NSW, Australia',
-            timestamp: 1649772802799,
-            uid: 'aQCKIy6PmaQZkAj0m0Rf',
-            url: 'https://www.delicious.com.au/travel/international/gallery/50-best-beaches-world/mq1qh1g3?page=40',
-            url_uid: '1',
         },
         {
             description:
@@ -214,10 +138,6 @@ const beachListData = {
             image: 'https://img.delicious.com.au/MS7dzJch/del/2019/09/impanema-beach-brazil-114898-2.jpg',
             index: 20,
             name: 'Impanema Beach, Brazil',
-            timestamp: 1649772802799,
-            uid: 'gw6CYDlDgGW96k59XmDf',
-            url: 'https://www.delicious.com.au/travel/international/gallery/50-best-beaches-world/mq1qh1g3?page=40',
-            url_uid: '1',
         },
         {
             description:
@@ -225,10 +145,6 @@ const beachListData = {
             image: 'https://img.delicious.com.au/DxLwiHiC/del/2019/09/ishigaki-okinawa-japan-114899-2.jpg',
             index: 21,
             name: 'Ishigaki, Okinawa, Japan',
-            timestamp: 1649772802799,
-            uid: 'SRUEoUveKkZbnoDhQGqs',
-            url: 'https://www.delicious.com.au/travel/international/gallery/50-best-beaches-world/mq1qh1g3?page=40',
-            url_uid: '1',
         },
         {
             description:
@@ -236,10 +152,6 @@ const beachListData = {
             image: 'https://img.delicious.com.au/qaoF9hxK/del/2019/09/wategos-beach-australia-114928-1.jpg',
             index: 22,
             name: 'Wategos Beach, Australia',
-            timestamp: 1649772802799,
-            uid: 'HA1OteJEQDz61ypIINTS',
-            url: 'https://www.delicious.com.au/travel/international/gallery/50-best-beaches-world/mq1qh1g3?page=40',
-            url_uid: '1',
         },
         {
             description:
@@ -247,10 +159,6 @@ const beachListData = {
             image: 'https://img.delicious.com.au/IxS2Mf_j/del/2019/09/isle-of-pines-new-caledonia-114900-1.jpg',
             index: 23,
             name: 'Isle of Pines, New Caledonia',
-            timestamp: 1649772802799,
-            uid: 'LUkaEpZ9dXKyp5rJlIHb',
-            url: 'https://www.delicious.com.au/travel/international/gallery/50-best-beaches-world/mq1qh1g3?page=40',
-            url_uid: '1',
         },
         {
             description:
@@ -258,10 +166,6 @@ const beachListData = {
             image: 'https://img.delicious.com.au/qOzXnsZw/del/2019/09/kauna-yoa-beach-hawaii-114901-2.jpg',
             index: 24,
             name: 'Kauna ‘oa Beach, Hawaii',
-            timestamp: 1649772802799,
-            uid: 'aJR66wMqIST3AWtp5okG',
-            url: 'https://www.delicious.com.au/travel/international/gallery/50-best-beaches-world/mq1qh1g3?page=40',
-            url_uid: '1',
         },
         {
             description:
@@ -269,10 +173,6 @@ const beachListData = {
             image: 'https://img.delicious.com.au/Nu76euva/del/2019/09/ko-samui-thailand-114902-1.jpg',
             index: 25,
             name: 'Ko Samui, Thailand',
-            timestamp: 1649772802799,
-            uid: 'Ly5DOekSm6jbqJUvLYc1',
-            url: 'https://www.delicious.com.au/travel/international/gallery/50-best-beaches-world/mq1qh1g3?page=40',
-            url_uid: '1',
         },
         {
             description:
@@ -280,10 +180,6 @@ const beachListData = {
             image: 'https://img.delicious.com.au/VdmEyWHD/del/2019/09/neds-beach-lord-howe-island-114912-1.jpg',
             index: 26,
             name: "Ned's Beach, Lord Howe Island",
-            timestamp: 1649772802799,
-            uid: 'GFtHBXrDX9DVKEWm4WrZ',
-            url: 'https://www.delicious.com.au/travel/international/gallery/50-best-beaches-world/mq1qh1g3?page=40',
-            url_uid: '1',
         },
         {
             description:
@@ -291,10 +187,6 @@ const beachListData = {
             image: 'https://img.delicious.com.au/efSQGqdl/del/2019/09/la-concha-san-sebastian-spain-114903-1.jpg',
             index: 27,
             name: 'La Concha, San Sebastian, Spain',
-            timestamp: 1649772802799,
-            uid: 'GkxNFS7KWeySLfC823bE',
-            url: 'https://www.delicious.com.au/travel/international/gallery/50-best-beaches-world/mq1qh1g3?page=40',
-            url_uid: '1',
         },
         {
             description:
@@ -302,10 +194,6 @@ const beachListData = {
             image: 'https://img.delicious.com.au/imeoG2TX/del/2019/09/la-digue-island-seychelles-114904-1.jpg',
             index: 28,
             name: 'La Digue Island, Seychelles',
-            timestamp: 1649772802799,
-            uid: 'OPQk8KSWl3F7DOUjeFjx',
-            url: 'https://www.delicious.com.au/travel/international/gallery/50-best-beaches-world/mq1qh1g3?page=40',
-            url_uid: '1',
         },
         {
             description:
@@ -313,10 +201,6 @@ const beachListData = {
             image: 'https://img.delicious.com.au/iVfmgzoG/del/2019/09/lake-hillier-wa-australia-114905-2.jpg',
             index: 29,
             name: 'Lake Hillier, WA, Australia',
-            timestamp: 1649772802799,
-            uid: '7GW0irWbK0ecmODIXQT6',
-            url: 'https://www.delicious.com.au/travel/international/gallery/50-best-beaches-world/mq1qh1g3?page=40',
-            url_uid: '1',
         },
         {
             description:
@@ -324,10 +208,6 @@ const beachListData = {
             image: 'https://img.delicious.com.au/N3bLZa1c/del/2019/09/lion-rock-piha-auckland-114906-1.jpg',
             index: 30,
             name: 'Lion Rock, Piha, Auckland',
-            timestamp: 1649772802799,
-            uid: 'J2FM7ELnd6Ga9UGi5oLD',
-            url: 'https://www.delicious.com.au/travel/international/gallery/50-best-beaches-world/mq1qh1g3?page=40',
-            url_uid: '1',
         },
         {
             description:
@@ -335,10 +215,6 @@ const beachListData = {
             image: 'https://img.delicious.com.au/5DRgijvX/del/2019/09/lizard-island-qld-australia-114907-2.jpg',
             index: 31,
             name: 'Lizard Island, QLD, Australia',
-            timestamp: 1649772802799,
-            uid: 'wQRLZD4MHTz0JXYoEmjz',
-            url: 'https://www.delicious.com.au/travel/international/gallery/50-best-beaches-world/mq1qh1g3?page=40',
-            url_uid: '1',
         },
         {
             description:
@@ -346,10 +222,6 @@ const beachListData = {
             image: 'https://img.delicious.com.au/FVoL7iW7/del/2019/09/maundays-bay-anguilla-114908-1.jpg',
             index: 32,
             name: 'Maundays Bay, Anguilla',
-            timestamp: 1649772802799,
-            uid: 'ghzQtaJPncCfkXsjPZWq',
-            url: 'https://www.delicious.com.au/travel/international/gallery/50-best-beaches-world/mq1qh1g3?page=40',
-            url_uid: '1',
         },
         {
             description:
@@ -357,10 +229,6 @@ const beachListData = {
             image: 'https://img.delicious.com.au/POTzIgPV/del/2019/09/maya-bay-phi-phi-114910-1.jpg',
             index: 33,
             name: 'Maya Bay, Phi Phi',
-            timestamp: 1649772802799,
-            uid: 'Zg4qMvzUflbTOBKZiH2v',
-            url: 'https://www.delicious.com.au/travel/international/gallery/50-best-beaches-world/mq1qh1g3?page=40',
-            url_uid: '1',
         },
         {
             description:
@@ -368,10 +236,6 @@ const beachListData = {
             image: 'https://img.delicious.com.au/xf-2tNAt/del/2019/09/mondello-sicily-italy-114911-2.jpg',
             index: 34,
             name: 'Mondello, Sicily, Italy',
-            timestamp: 1649772802799,
-            uid: 'NVo12kF1NhpLiuXMhCKt',
-            url: 'https://www.delicious.com.au/travel/international/gallery/50-best-beaches-world/mq1qh1g3?page=40',
-            url_uid: '1',
         },
         {
             description:
@@ -379,10 +243,6 @@ const beachListData = {
             image: 'https://img.delicious.com.au/GT7OuyPY/del/2019/09/noosa-heads-qld-australia-114914-2.jpg',
             index: 35,
             name: 'Noosa Heads, QLD, Australia',
-            timestamp: 1649772802799,
-            uid: '3n82kZyaVIrzamHWnos1',
-            url: 'https://www.delicious.com.au/travel/international/gallery/50-best-beaches-world/mq1qh1g3?page=40',
-            url_uid: '1',
         },
         {
             description:
@@ -390,10 +250,6 @@ const beachListData = {
             image: 'https://img.delicious.com.au/pg4apPY6/del/2019/09/north-maley-atoll-maldives-114915-1.jpg',
             index: 36,
             name: 'North Malé Atoll, Maldives',
-            timestamp: 1649772802799,
-            uid: 'WnpUWssoJJawFtXHAzQz',
-            url: 'https://www.delicious.com.au/travel/international/gallery/50-best-beaches-world/mq1qh1g3?page=40',
-            url_uid: '1',
         },
         {
             description:
@@ -401,10 +257,6 @@ const beachListData = {
             image: 'https://img.delicious.com.au/81yv1AE9/del/2019/09/nudey-beach-qld-australia-114916-2.jpg',
             index: 37,
             name: 'Nudey Beach QLD, Australia',
-            timestamp: 1649772802799,
-            uid: 'a5Xn4COr1tELJTKfplOo',
-            url: 'https://www.delicious.com.au/travel/international/gallery/50-best-beaches-world/mq1qh1g3?page=40',
-            url_uid: '1',
         },
         {
             description:
@@ -412,10 +264,6 @@ const beachListData = {
             image: 'https://img.delicious.com.au/gJ4RUTbN/del/2019/09/olympos-turkey-114918-1.jpg',
             index: 38,
             name: 'Olympos, Turkey',
-            timestamp: 1649772802799,
-            uid: 'Qxa8cHR6CicOruHHt3Xw',
-            url: 'https://www.delicious.com.au/travel/international/gallery/50-best-beaches-world/mq1qh1g3?page=40',
-            url_uid: '1',
         },
         {
             description:
@@ -423,10 +271,6 @@ const beachListData = {
             image: 'https://img.delicious.com.au/neb1M6A2/del/2019/09/platja-de-formentor-mallorca-spain-114919-2.jpg',
             index: 39,
             name: 'Platja de Formentor, Mallorca, Spain',
-            timestamp: 1649772802799,
-            uid: 'asVfEIqVADHxaBoOh7AZ',
-            url: 'https://www.delicious.com.au/travel/international/gallery/50-best-beaches-world/mq1qh1g3?page=40',
-            url_uid: '1',
         },
         {
             description:
@@ -434,10 +278,6 @@ const beachListData = {
             image: 'https://img.delicious.com.au/IIWPXEXT/del/2019/09/playa-del-norte-cancun-mexico-114920-2.jpg',
             index: 40,
             name: 'Playa Del Norte, Cancun, Mexico',
-            timestamp: 1649772802799,
-            uid: 'SXzEWYui7g4hWjgiMg5Y',
-            url: 'https://www.delicious.com.au/travel/international/gallery/50-best-beaches-world/mq1qh1g3?page=40',
-            url_uid: '1',
         },
         {
             description:
@@ -445,10 +285,6 @@ const beachListData = {
             image: 'https://img.delicious.com.au/9sgktS_z/del/2019/09/white-haven-beach-qld-australia-114929-2.jpg',
             index: 41,
             name: 'White Haven Beach, QLD, Australia',
-            timestamp: 1649772802799,
-            uid: 'v6kUVSynYtWSgeKz5pdI',
-            url: 'https://www.delicious.com.au/travel/international/gallery/50-best-beaches-world/mq1qh1g3?page=40',
-            url_uid: '1',
         },
         {
             description:
@@ -456,10 +292,6 @@ const beachListData = {
             image: 'https://img.delicious.com.au/7yvAFYl-/del/2019/09/praia-do-cabedelo-minho-portugal-114921-1.jpg',
             index: 42,
             name: 'Praia do Cabedelo, Minho, Portugal',
-            timestamp: 1649772802799,
-            uid: 'Y9B0psaRGO8tzCg0ldM5',
-            url: 'https://www.delicious.com.au/travel/international/gallery/50-best-beaches-world/mq1qh1g3?page=40',
-            url_uid: '1',
         },
         {
             description:
@@ -467,10 +299,6 @@ const beachListData = {
             image: 'https://img.delicious.com.au/JFteKM5_/del/2019/09/reynisfjara-beach-iceland-114922-2.jpg',
             index: 43,
             name: 'Reynisfjara Beach, Iceland',
-            timestamp: 1649772802799,
-            uid: 'ws3WLu6uLMqBgOOGLQTh',
-            url: 'https://www.delicious.com.au/travel/international/gallery/50-best-beaches-world/mq1qh1g3?page=40',
-            url_uid: '1',
         },
         {
             description:
@@ -478,10 +306,6 @@ const beachListData = {
             image: 'https://img.delicious.com.au/qIKHJHE-/del/2019/09/second-valley-beach-sa-australia-114923-2.jpg',
             index: 44,
             name: 'Second Valley Beach, SA, Australia',
-            timestamp: 1649772802799,
-            uid: 'Gj0OEhNi8QAYiGuDWMRN',
-            url: 'https://www.delicious.com.au/travel/international/gallery/50-best-beaches-world/mq1qh1g3?page=40',
-            url_uid: '1',
         },
         {
             description:
@@ -489,10 +313,6 @@ const beachListData = {
             image: 'https://img.delicious.com.au/PavuOQQd/del/2019/09/seven-miles-beach-grand-cayman-cayman-islands-114924-1.jpg',
             index: 45,
             name: 'Seven Miles Beach, Grand Cayman, Cayman Islands',
-            timestamp: 1649772802799,
-            uid: '64qqbnFtF9pIi8dBZ1Ok',
-            url: 'https://www.delicious.com.au/travel/international/gallery/50-best-beaches-world/mq1qh1g3?page=40',
-            url_uid: '1',
         },
         {
             description:
@@ -500,10 +320,6 @@ const beachListData = {
             image: 'https://img.delicious.com.au/ZGWjquj7/del/2019/09/tulum-quintana-roo-mexico-114925-1.jpg',
             index: 46,
             name: 'Tulum, Quintana Roo, Mexico',
-            timestamp: 1649772802799,
-            uid: 'jBunj5GGeXOEk3bwxn1p',
-            url: 'https://www.delicious.com.au/travel/international/gallery/50-best-beaches-world/mq1qh1g3?page=40',
-            url_uid: '1',
         },
         {
             description:
@@ -511,10 +327,6 @@ const beachListData = {
             image: 'https://img.delicious.com.au/AGiyIyY_/del/2019/09/turquoise-bay-wa-australia-114926-2.jpg',
             index: 47,
             name: 'Turquoise Bay, WA, Australia',
-            timestamp: 1649772802799,
-            uid: 'HXEXrlOqP7c8N4qMxHCE',
-            url: 'https://www.delicious.com.au/travel/international/gallery/50-best-beaches-world/mq1qh1g3?page=40',
-            url_uid: '1',
         },
         {
             description:
@@ -522,10 +334,6 @@ const beachListData = {
             image: 'https://img.delicious.com.au/h0uW_EvA/del/2019/09/varadero-beach-cuba-114927-2.jpg',
             index: 48,
             name: 'Varadero Beach, Cuba',
-            timestamp: 1649772802799,
-            uid: 'GX6bOWadDgT5yR0UYQhd',
-            url: 'https://www.delicious.com.au/travel/international/gallery/50-best-beaches-world/mq1qh1g3?page=40',
-            url_uid: '1',
         },
         {
             description:
@@ -533,10 +341,6 @@ const beachListData = {
             image: 'https://img.delicious.com.au/nW7fUqhw/del/2019/09/wine-glass-bay-tas-australia-114930-2.jpg',
             index: 49,
             name: 'Wine Glass Bay, TAS, Australia',
-            timestamp: 1649772802799,
-            uid: 'yALnazUf8f7ARuJWctdl',
-            url: 'https://www.delicious.com.au/travel/international/gallery/50-best-beaches-world/mq1qh1g3?page=40',
-            url_uid: '1',
         },
         {
             description:
@@ -544,14 +348,16 @@ const beachListData = {
             image: 'https://img.delicious.com.au/cNlby9ho/del/2019/09/zlatni-rat-beach-croatia-114931-1.jpg',
             index: 50,
             name: 'Zlatni Rat Beach, Croatia',
-            timestamp: 1649772802799,
-            uid: 'e3M0aVNM4ooJLEJikfgn',
-            url: 'https://www.delicious.com.au/travel/international/gallery/50-best-beaches-world/mq1qh1g3?page=40',
-            url_uid: '1',
         },
     ],
 };
 
-const getBeachListData = () => beachListData;
+const getBeachListData = (returnData: boolean) => {
+    if (returnData) {
+        return beachListData;
+    } else {
+        return null;
+    }
+};
 
 export { getBeachListData };
